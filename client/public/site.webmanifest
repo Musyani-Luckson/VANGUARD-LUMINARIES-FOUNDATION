@@ -1,0 +1,30 @@
+{
+  "name": "Vanguard Luminaries Foundation",
+  "short_name": "Vanguard",
+  "description": "Vanguard Luminaries Foundation equips people to know their purpose and gives them the tools to act on it, through leadership training, mindset transformation, master classes and outreach.",
+  "lang": "en-ZM",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/brand/mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

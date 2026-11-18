@@ -1,0 +1,91 @@
+/*
+ * GENERATED FILE — DO NOT EDIT.
+ * Written from src/globals/brand.ts by `npm run brand:sync` (and by vite dev/build).
+ * Change a brand value there; this file follows.
+ */
+
+@theme {
+  /* Palette: the brand's colours, the same in every theme */
+  --color-brand-gold: #FFDCA0;
+  --color-brand-emerald: #007761;
+  --color-brand-forest: #002A22;
+  --color-brand-white: #FFFFFF;
+
+  /* Rounded corners: every rounded-* utility resolves through these */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-3xl: 28px;
+
+  /* Type */
+  --font-sans: "Jost Variable", Jost, ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond Variable", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --tracking-eyebrow: 0.3em;
+  --tracking-display: 0.01em;
+
+  /* Elevation */
+  --shadow-raised: 0 1px 2px rgb(0 42 34 / 0.06), 0 4px 12px rgb(0 42 34 / 0.06);
+  --shadow-floating: 0 8px 24px rgb(0 42 34 / 0.12), 0 2px 6px rgb(0 42 34 / 0.08);
+  --shadow-overlay: 0 24px 64px rgb(0 20 16 / 0.28);
+
+  /* Motion easing */
+  --ease-brand: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-enter: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* Surfaces: what a colour is FOR, which the theme decides */
+@theme inline {
+  --color-canvas: var(--brand-canvas);
+  --color-surface: var(--brand-surface);
+  --color-sunken: var(--brand-sunken);
+  --color-line: var(--brand-line);
+  --color-ink: var(--brand-ink);
+  --color-muted: var(--brand-muted);
+  --color-primary: var(--brand-primary);
+  --color-primary-dark: var(--brand-primary-dark);
+  --color-primary-light: var(--brand-primary-light);
+  --color-on-primary: var(--brand-on-primary);
+  --color-accent: var(--brand-accent);
+  --color-accent-dark: var(--brand-accent-dark);
+  --color-accent-light: var(--brand-accent-light);
+  --color-info: var(--brand-info);
+  --color-info-light: var(--brand-info-light);
+  --color-warning: var(--brand-warning);
+  --color-warning-light: var(--brand-warning-light);
+  --color-danger: var(--brand-danger);
+  --color-danger-light: var(--brand-danger-light);
+  --color-toast-success: var(--brand-toast-success);
+  --color-toast-info: var(--brand-toast-info);
+  --color-toast-error: var(--brand-toast-error);
+  --color-gold: var(--brand-gold);
+  --color-gold-text: var(--brand-gold-text);
+  --color-gold-light: var(--brand-gold-light);
+  --color-on-gold: var(--brand-on-gold);
+  --color-band: var(--brand-band);
+  --color-band-raised: var(--brand-band-raised);
+  --color-on-band: var(--brand-on-band);
+  --color-band-muted: var(--brand-band-muted);
+  --color-band-accent: var(--brand-band-accent);
+  --color-mark: var(--brand-mark);
+  --color-focus: var(--brand-focus);
+  --color-pattern: var(--brand-pattern);
+  --color-overlay: var(--brand-overlay);
+}
+
+/* Behaviour values used by the utilities in index.css */
+:root {
+  --brand-duration-fast: 140ms;
+  --brand-duration-base: 220ms;
+  --brand-duration-slow: 420ms;
+  --brand-hover-lift: -2px;
+  --brand-press-scale: 0.98;
+  --brand-enter-rise: 8px;
+  --brand-focus-width: 2px;
+  --brand-focus-offset: 3px;
+  --brand-pattern-opacity: 0.05;
+  --brand-pattern-size: 72px;
+  --brand-pattern-url: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20590%20496'%3E%3Cpolygon%20points%3D'0%2C76%2070%2C7%20289%2C111%20521%2C0%20590%2C61%20338%2C496%20236%2C496%20440%2C140%20286%2C210%20142%2C141%20221%2C279%20250%2C240%20352%2C240%20223%2C462'%2F%3E%3C%2Fsvg%3E");
+}

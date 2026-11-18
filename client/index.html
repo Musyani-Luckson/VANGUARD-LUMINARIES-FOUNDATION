@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="%BRAND_LANG%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- %BRAND_*% values come from src/globals/brand.ts (see vite.config.ts). -->
+    <title>%BRAND_TITLE%</title>
+    <meta name="description" content="%BRAND_DESCRIPTION%" />
+    <meta name="theme-color" content="%BRAND_THEME_COLOR%" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="%BRAND_THEME_COLOR_DARK%" media="(prefers-color-scheme: dark)" />
+    <meta name="application-name" content="%BRAND_NAME%" />
+    <meta name="apple-mobile-web-app-title" content="%BRAND_SHORT_NAME%" />
+    <link rel="icon" href="%BRAND_FAVICON%" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="%BRAND_MARK%" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%BRAND_APPLE_TOUCH%" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Share previews (og:url / og:image are added once BRAND.url is set). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="%BRAND_NAME%" />
+    <meta property="og:title" content="%BRAND_TITLE%" />
+    <meta property="og:description" content="%BRAND_DESCRIPTION%" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="%BRAND_TITLE%" />
+    <meta name="twitter:description" content="%BRAND_DESCRIPTION%" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
